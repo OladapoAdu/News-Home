@@ -27,7 +27,7 @@ body{
     justify-content: space-between;
     width: 80vw;
     margin-top: 0;
-    gap: 650px;
+    /* gap: 650px; */
 }
 
 .links{
@@ -214,6 +214,7 @@ h1{
     align-items: center;
     gap: 50px;
     height: 100vh;
+    padding-toP: 400px;
 }
 
 .header{
