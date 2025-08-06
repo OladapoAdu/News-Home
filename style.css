@@ -17,7 +17,7 @@ body{
     gap: 50px;
     overflow-y: scroll;
     /* padding-top: 400px; */
-    padding: 0;
+    padding-bottom: 50px;
 }
 
 .header{
@@ -27,7 +27,6 @@ body{
     justify-content: space-between;
     width: 80vw;
     margin-top: 0;
-    /* gap: 650px; */
 }
 
 .links{
@@ -40,6 +39,11 @@ a{
     text-decoration: none;
     color: #000;
     margin-right: 10px;
+}
+
+.menu{
+    display: none;
+    width: fit-content;
 }
 
 .menu-icon{
@@ -214,7 +218,8 @@ h1{
     align-items: center;
     gap: 50px;
     height: 100vh;
-    padding-toP: 400px;
+    padding-top: 400px;
+    padding-bottom: 250px;
 }
 
 .header{
@@ -240,6 +245,12 @@ a{
 .menu-icon{
     display: block;
 }
+
+.menu{
+    display: block;
+    width: fit-content;
+}
+
 
 .grid-container{
     display: flex;
@@ -428,6 +439,11 @@ a{
     text-decoration: none;
     color: #000;
     margin-right: 10px;
+}
+
+.menu{
+    display: block;
+    width: fit-content;
 }
 
 .menu-icon{
@@ -623,6 +639,11 @@ a{
     margin-right: 10px;
 }
 
+.menu{
+    display: block;
+    width: fit-content;
+}
+
 .menu-icon{
     display: block;
 }
@@ -814,6 +835,11 @@ a{
     text-decoration: none;
     color: #000;
     margin-right: 10px;
+}
+
+.menu{
+    display: block;
+    width: fit-content;
 }
 
 .menu-icon{
