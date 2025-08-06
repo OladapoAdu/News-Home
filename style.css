@@ -16,7 +16,7 @@ body{
     align-items: center;
     gap: 50px;
     overflow-y: scroll;
-    padding-top: 400px;
+    /* padding-top: 400px; */
     padding-bottom: 50px;
 }
 
